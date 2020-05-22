@@ -128,9 +128,10 @@ and in the other,
 
 code for test.sh:
 
-`#!/bin/bash`
-
-`cat /etc/bandit_pass/bandit24 > password.txt`
+```
+#!/bin/bash
+cat /etc/bandit_pass/bandit24 > password.txt
+```
 
 change permissions: `chmod 777 test.sh; chmod 666 password.txt`
 
