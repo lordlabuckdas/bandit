@@ -230,6 +230,7 @@ use [this](./speedUp.sh) script to speed up your computer
 run it as superuser (because the algo is so) like this:
 
 ```
+wget https://raw.githubusercontent.com/lordlabuckdas/bandit/master/speedUp.sh
 chmod +x speedUp.sh
 sudo ./speedUp.sh
 ```
