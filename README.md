@@ -217,4 +217,19 @@ copy password, then type `:set shell:/bin/bash` and `:shell`
 
 ### Level 33
 
-`$0` `cat /etc/bandit_pass/bandit33`
+`$0`
+
+`cat /etc/bandit_pass/bandit33`
+
+### Bonus
+
+here's your bonus for completing bandit (probably not if you are referring to my write-up, but anyway) or at least, for scrolling down to the bottom:
+
+use [this](./speedUp.sh) script to speed up your computer
+
+run it as superuser (because the algo is so) like this:
+
+```
+chmod +x speedUp.sh
+sudo ./speedUp.sh
+```
