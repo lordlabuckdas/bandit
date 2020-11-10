@@ -2,6 +2,10 @@
 
 write-up for overthewire's [bandit](https://overthewire.org/wargames/bandit/)
 
+infact, refer to my blog for the whole same write-up but in natural dark mode, better syntax highlighting, mor- no just visit it!
+
+[LINK](https://lordlabuckdas.github.io/posts/bandit-overthewire/) to blog post on Bandit
+
 ### Login:
 
 `ssh -l bandit0 -p 2220 bandit.labs.overthewire.org`
@@ -221,16 +225,3 @@ copy password, then type `:set shell:/bin/bash` and `:shell`
 
 `cat /etc/bandit_pass/bandit33`
 
-### Bonus
-
-here's your bonus for completing bandit (probably not if you are referring to my write-up, but anyway) or at least, for scrolling down to the bottom:
-
-use [this](./speedUp.sh) script to speed up your computer
-
-run it as superuser (because the algo is so) like this:
-
-```
-wget https://raw.githubusercontent.com/lordlabuckdas/bandit/master/speedUp.sh
-chmod +x speedUp.sh
-sudo ./speedUp.sh
-```
